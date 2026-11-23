@@ -5,7 +5,6 @@ RUN apt-get update \
     unzip \
     curl \
     wget \
-    postgis \
     osm2pgsql
 
 WORKDIR /work
